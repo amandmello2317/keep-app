@@ -1,0 +1,26 @@
+.grid-container {   
+    width: 85%;
+    /* margin: auto; */
+    margin: 50px auto auto 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+    }
+
+    .card-view:hover{
+        cursor: pointer;
+        box-shadow: 0 0 5px #0c0c0b;
+        text-shadow: 0 0 5px #11110f;
+    }
+    .bin-heading {
+       
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+ 

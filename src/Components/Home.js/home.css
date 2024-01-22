@@ -1,0 +1,58 @@
+.container{
+    height: 50px;
+    width: 40%;
+    background-color: rgb(243, 238, 238);
+    border-radius: 50px;
+    margin: 20px auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.container:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #747472;
+    /* text-shadow: 0 0 5px #11110f; */
+}
+
+.items{
+    margin-left: 10px;
+    font-weight: bolder;
+    width: 80%;
+}
+
+.text-area{
+    background-color: rgb(241, 243, 243);
+    /* height: 200px; */
+    margin: 50px auto auto ;
+    width: 20%;
+    border-radius: 20px ;
+    
+}
+
+.text-area:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #747472;
+
+}
+
+.input{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.view-Card{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
